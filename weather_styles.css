@@ -1,0 +1,56 @@
+body {
+    background: url("img/clouds.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.weather-app {
+    margin: 70px auto;
+    width: 80%;
+    height: 80%;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 10px 10px 50px #888888;
+    overflow: hidden;
+    text-align:center;
+    font-family: "Copperplate";
+    rgba(54, 25, 25, .00004);
+    font-size: 30px;
+    padding-bottom: 20px;
+
+}
+
+.currentLocation {
+    margin-top: 50px;
+    text-align: center;
+    font-family: "Copperplate Gothic Bold";
+    font-size: 70px;
+}
+
+.currentTemperature {
+    margin-top: 30px;
+}
+
+#icon {
+    margin-left: -120px;
+}
+
+
+.wind {
+    padding-left: 100px;
+}
+
+#currentTemperature {
+    font-size: 90px;
+    padding-left: 50px;
+
+}
+
+.degree {
+    font-size: 90px;
+}
+
+.bottom {
+    margin-top: 50px;
+    font-size: 40px;
+}
